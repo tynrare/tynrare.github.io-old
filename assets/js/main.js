@@ -20,6 +20,7 @@
 		var path = location.hash.replace( /^#/, '' );
 		path = path.length > 0 ? path : "./views/main.html";
 		$("#page-content").load(path, applyTranslate);
+		window.scrollTo(0,0);
 	}
 
 	function applyTranslate(){

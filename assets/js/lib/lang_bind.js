@@ -20,7 +20,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ****************************************************************************/
 
-
 /*
 Usage:
 dynamic:
@@ -74,6 +73,10 @@ static:
 
 	local.parseDom = function(dom){
 		var toParse = dom._origin_innerHTML||dom.innerHTML;
+
+		if(dom.classList.contains("fast-bind"))
+			toParse = "%c " + toParse + "%";
+
 		var text = local.parsePresetsText(toParse);
 
 		if(local.properties.saveOriginHTML)
