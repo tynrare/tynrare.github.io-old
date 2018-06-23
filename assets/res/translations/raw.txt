@@ -1,0 +1,3 @@
+welcome_header
+welcome_short_description
+welcome_intro
