@@ -1,3 +1,21 @@
 {
-  "welcome_header":"Welcome!"
+  "welcome_header": "Welcome!",
+  "welcome_short_description": "You're on my personal page",
+  "welcome_intro": "<i>In first place i want to thank AJ for his <a href='https://html5up.net'>HTML5 UP</a> project and awesome design that lets to this page feel so good. People like him makes world better</i>&#010;&#010;<i>Also i didn't use any translation (out)sources; - so my English may have some issues</i>&#010;&#010;If you're  <b>looking for developer</b> in you project or programmer in your team - here you can find my vita and portfolio.&#010;&#010;If you're <b>just surfing around for something interesting</b> - you can find some interesting implementations below on page ",
+  "read_vitae_btn": "Read vita",
+  "home": "Home",
+  "curriculum_vitae": "Curriculum Vitae",
+  "portfolio": "Portfolio",
+  "my_projects": "My Projects",
+  "development": "Development",
+  "try_in_web": "Try In Web",
+  "jams": "JAMs",
+  "open_source": "Open Source",
+  "virtual_reality": "Virtual Reality",
+  "archive_and_other": "Archive and Other",
+  "other": "Other",
+  "art": "Art",
+  "3d": "3D",
+  "unrelated": "Unrelated",
+  "highlights": "highlights"
 }

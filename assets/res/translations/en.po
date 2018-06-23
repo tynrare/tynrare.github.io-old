@@ -1,0 +1,101 @@
+# Timofey <Tymonr@yandex.ru>, 2018. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2018-06-23 09:45+0000\n"
+"Last-Translator: Timofey <Tymonr@yandex.ru>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"X-Generator: Zanata 4.4.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "55bdb655d8ddf62a1be123672daabd70"
+msgid "welcome_header"
+msgstr "Welcome!"
+
+msgctxt "68815d98d8f9031d864c50fd6822ed1f"
+msgid "welcome_short_description"
+msgstr "You're on my personal page"
+
+msgctxt "6cb966ecd17dfc944a8d8984c045e1c9"
+msgid "welcome_intro"
+msgstr ""
+"<i>In first place i want to thank AJ for his <a href='https://html5up."
+"net'>HTML5 UP</a> project and awesome design that lets to this page feel so "
+"good. People like him makes world better</i>\n"
+"\n"
+"<i>Also i didn't use any translation (out)sources; - so my English may have "
+"some issues</i>\n"
+"\n"
+"If you're  <b>looking for developer</b> in you project or programmer in your "
+"team - here you can find my vita and portfolio.\n"
+"\n"
+"If you're <b>just surfing around for something interesting</b> - you can "
+"find some interesting implementations below on page "
+
+msgctxt "ea8e8df28c2b110b717f19ae38f75f76"
+msgid "read_vitae_btn"
+msgstr "Read vita"
+
+msgctxt "106a6c241b8797f52e1e77317b96a201"
+msgid "home"
+msgstr "Home"
+
+msgctxt "696777a840987a8d8699a765cb0d753f"
+msgid "curriculum_vitae"
+msgstr "Curriculum Vitae"
+
+msgctxt "b68e15f27bb5c24c13ead6608ac8c903"
+msgid "portfolio"
+msgstr "Portfolio"
+
+msgctxt "c0349d2cfbdfccfb4468db3c7ca80b9f"
+msgid "my_projects"
+msgstr "My Projects"
+
+msgctxt "759b74ce43947f5f4c91aeddc3e5bad3"
+msgid "development"
+msgstr "Development"
+
+msgctxt "7b48847a4f3fc9abcc4d799dc0a5286a"
+msgid "try_in_web"
+msgstr "Try In Web"
+
+msgctxt "967ab7737cccb696be5fd243d32796b0"
+msgid "jams"
+msgstr "JAMs"
+
+msgctxt "91a78b0cd2b82a5ecada9ae9f7b345f5"
+msgid "open_source"
+msgstr "Open Source"
+
+msgctxt "991ec8c878bee8951fd32e7224ef813c"
+msgid "virtual_reality"
+msgstr "Virtual Reality"
+
+msgctxt "3b8320e9a65f7860ece5bade8102fa2f"
+msgid "archive_and_other"
+msgstr "Archive and Other"
+
+msgctxt "795f3202b17cb6bc3d4b771d8c6c9eaf"
+msgid "other"
+msgstr "Other"
+
+msgctxt "2c5f64ab07ccb3e410aa97fc09687cc3"
+msgid "art"
+msgstr "Art"
+
+msgctxt "55fac25c11a99ce497915bfc80308ffc"
+msgid "3d"
+msgstr "3D"
+
+msgctxt "13ec785fb00ee21b7b32182c90066972"
+msgid "unrelated"
+msgstr "Unrelated"
+
+msgctxt "f19f9cf709c8385cd6c3595b87c892bd"
+msgid "highlights"
+msgstr "highlights"
+
