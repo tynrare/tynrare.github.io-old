@@ -19,7 +19,16 @@
 	function loadView(){
 		var path = location.hash.replace( /^#/, '' );
 		path = path.length > 0 ? path : "./views/main.html";
-		$("#page-content").load(path);
+		$("#page-content").load(path, applyTranslate);
+	}
+
+	function applyTranslate(){
+		var storedLang = localStorage.getItem('prefered-lang');
+
+		$.getJSON("assets/res/translations/" + storedLang + ".json", function(data){
+			utils.bind.val.static = data;
+			utils.bind.parseBindableChilds(document.body);
+		})
 	}
 
 	$(function() {
@@ -39,6 +48,7 @@
 
 				//load default view
 				loadView();
+				applyTranslate();
 			}, 100);
 		});
 
@@ -291,6 +301,17 @@
 
 		});
 
+		if(!localStorage.getItem('prefered-lang'))
+			localStorage.setItem('prefered-lang', 'en');
+
+		$("#lang-switch").on('click', function(){
+			var storedLang = localStorage.getItem('prefered-lang');
+
+			localStorage.setItem('prefered-lang', 
+				storedLang == 'en' ? 'ru' : 'en');
+
+			applyTranslate();
+		});
 
 	});
 
