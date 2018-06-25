@@ -1,6 +1,7 @@
 welcome_header
 welcome_short_description
 welcome_intro
+greeting_anim_text
 read_vitae_btn
 home
 curriculum_vitae

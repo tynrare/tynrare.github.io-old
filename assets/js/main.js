@@ -24,12 +24,18 @@
 	}
 
 	function applyTranslate(){
+		//Apply translate
 		var storedLang = localStorage.getItem('prefered-lang');
 
 		$.getJSON("assets/res/translations/" + storedLang + ".json", function(data){
 			utils.bind.val.static = data;
 			utils.bind.parseBindableChilds(document.body);
 		})
+
+		//Execute all paper scripts
+		//We need wait some "i don't know exactly what"
+		if(paper) 
+			setTimeout(paper.PaperScript.load, 100);
 	}
 
 	$(function() {
@@ -50,6 +56,9 @@
 				//load default view
 				loadView();
 				applyTranslate();
+				
+				if(createjs)
+					createjs.Ticker.framerate = 60;
 			}, 100);
 		});
 
