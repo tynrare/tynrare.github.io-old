@@ -95,8 +95,10 @@ function onMouseMove(event){
 			letter.targetPos = pos + vec.normalize()*(mouseInteractDist-vec.length)/2;
 			letter.moveSpeed = 0.3;
 
-			if(event.delta.length > 15 && vec.length < mouseInteractDist/2)
-				letter.position += event.delta*(1.8-vec.length/mouseInteractDist);
+			if(event.delta.length > 15 && vec.length < mouseInteractDist/2){
+				letter.targetPos += event.delta*(1-vec.length/mouseInteractDist/2)*2;
+			letter.moveSpeed = 0.5;
+			}
 		}
 		else{
 			letter.targetPos = pos;
