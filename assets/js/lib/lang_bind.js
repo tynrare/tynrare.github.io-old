@@ -129,13 +129,9 @@ static:
 					console.error("value for " + key + " is undefined");
 					return;
 				}
-				else if(typeof v == "string"){
+				else if(typeof v == "string"){ //possible it's float
 					var parsed = parseFloat(v);
-					if(isNaN(parsed)){
-						console.warn(key + " was ", v, " and it's incorrect");
-						return;
-					}
-					else
+					if(!isNaN(parsed))
 						v = parsed;
 				}
 				else if(isNaN(v)){
