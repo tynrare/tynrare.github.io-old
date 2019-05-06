@@ -312,7 +312,7 @@
 		});
 
 		if(!localStorage.getItem('prefered-lang'))
-			localStorage.setItem('prefered-lang', 'en');
+			localStorage.setItem('prefered-lang', 'ru');
 
 		$("#lang-switch").on('click', function(){
 			var storedLang = localStorage.getItem('prefered-lang');
